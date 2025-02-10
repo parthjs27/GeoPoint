@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container {
+  width: 50vw;
+  height: 70vh;
+  margin: 70px auto;
+  /* background-image: linear-gradient(#43c6ac, #191654);
+   */
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+.searchData {
+  width: 50%;
+  padding: 1rem;
+  border: none;
+  border-radius: 2rem;
+  margin-bottom: 4rem;
+  box-shadow: 2px 3px 25px rgba(255, 255, 255, 0.7);
+}
+
+.weatherData {
+  color: #fff;
+}
+
+.weatherData h1{
+  font-size: 3rem;
+    font-weight: 450;
+    margin: 15px 0;
+}
+
+.weatherData h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.temp_min_max {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.weatherData p {
+  font-size: 1.2rem;
+}
+
+.location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-pin{
+  font-size: 3rem;
+  margin: 0 1rem;
+}
+
+.invalidCity{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 600px){
+  .container {
+    width: 80vw;
+    height: 68vh;
+    margin: 70px auto;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+  }
+  
+  .searchData {
+    width: 90%;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 2rem;
+    margin-bottom: 4rem;
+    box-shadow: 2px 3px 25px rgba(255, 255, 255, 0.7);
+  }
+  
+  .weatherData h1{
+    font-size: 1.5rem;
+      font-weight: 450;
+      margin: 15px 0;
+  }
+  
+  .weatherData h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  
+  .temp_min_max {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    padding: 0 5px;
+  }
+  
+  .map-pin{
+    font-size: 3rem;
+    margin: 0 1rem;
+  }
+  
+}
+
+@media(max-width: 768px){
+  .container {
+    width: 60vw;
+    height: 68vh;
+    margin: 70px auto;
+    /* background-image: linear-gradient(#43c6ac, #191654);
+     */
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+  }
+  
+  .searchData {
+    width: 60%;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 2rem;
+    margin-bottom: 4rem;
+    box-shadow: 2px 3px 25px rgba(255, 255, 255, 0.7);
+  }
+  
+  .weatherData h1{
+    font-size: 2.5rem;
+      font-weight: 450;
+      margin: 15px 0;
+  }
+  
+  .weatherData h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  
+  .temp_min_max {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .map-pin{
+    font-size: 3rem;
+    margin: 0 1rem;
+  }
+}
+
+@media(max-width: 1024px){
+  .container {
+    width: 60vw;
+    height: 68vh;
+    margin: 70px auto;
+    /* background-image: linear-gradient(#43c6ac, #191654);
+     */
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+  }
+  
+  .searchData {
+    width: 60%;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 2rem;
+    margin-bottom: 4rem;
+    box-shadow: 2px 3px 25px rgba(255, 255, 255, 0.7);
+  }
+  
+  .weatherData h1{
+    font-size: 2.5rem;
+      font-weight: 450;
+      margin: 15px 0;
+  }
+  
+  .weatherData h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  /* .bg-min-max-temp{
+    background: #fff;
+    width: 100%;
+    padding: 0.5rem 0.3rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 2rem;
+    color: #80D0C7;
+  } */
+  
+  .temp_min_max {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .map-pin{
+    font-size: 3rem;
+    margin: 0 1rem;
+  }
+}
